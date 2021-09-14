@@ -1,8 +1,6 @@
-package atividadepratica;
-
 import java.util.Scanner;
 
-public class ExercicioTres {
+public class Exercicio3 {
     
     public static void main(String[] args) {
         
