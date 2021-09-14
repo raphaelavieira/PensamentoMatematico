@@ -3,21 +3,24 @@ package atividadepratica;
 import java.util.Scanner;
 
 public class ExercicioTres {
+    
     public static void main(String[] args) {
+        
         int x = 1;
         int y = 1;
-        int cont = 1;
-        int tab = 0;
-
-        Scanner teclado = new Scanner(System.in);
-        System.out.println("Escolha um n° para conferir a tabuada: ");
-        x = teclado.nextInt();
-
-        for (;cont <= 10;){
-            tab = x * y;
-            System.out.println(x + " x " + y + " = " + tab);
+        int tabuada = 0;
+        int contador = 0
+        
+        Scanner ler = new Scanner(System.in);
+        System.out.println("Escolha a tabuada: ");
+        
+        x = ler.nextInt();
+        
+        for (contador <= 9) {
+            tabuada = x * y;
+            System.out.println(x + " x " + y + " = " + tabuada);
             y ++;
-            cont += 1;
+            contador += 1;
             }
         }
 }
