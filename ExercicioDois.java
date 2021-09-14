@@ -10,7 +10,7 @@ public class ExercicioDois {
 
         Scanner ler = new Scanner(System.in);
         while (cont <= 10){
-            System.out.println("Informe um número: ");
+            System.out.print("Informe um número: ");
             numero = ler.nextInt();
             if (numero % 2 == 0){
                 System.out.println("O número é par");
