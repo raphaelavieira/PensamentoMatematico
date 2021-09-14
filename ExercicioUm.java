@@ -3,23 +3,27 @@ package atividadepratica;
 import java.util.Scanner;
 
 public class ExercicioUm {
+   
     public static void main(String[] args) {
+        
+        float salario
+        float percentualAumento
+        float calculo
+        float novoSalario
+        Scanner ler = new Scanner(System.in);
 
-        Scanner teclado = new Scanner(System.in);
-
-        System.out.println("Informe seu salário: R$: ");
-        float salario = teclado.nextFloat();
+        System.out.println("Digite o valor do salário: R$ ");
+        salario = ler.nextFloat();
 
         System.out.println("Informe o percentual de aumento: ");
-        float aumento = teclado.nextFloat();
+        percentualAumento = ler.nextFloat();
 
-        aumento = (aumento/100) * salario;
+        calculoAumento = (aumento/100) * salario;
 
-        float novosalario = salario + aumento;
+        novoSalario = salario + calculoAumento;
 
-        System.out.println("Valor salário = R$: " + salario);
-        System.out.println("Valor do aumento = R$: " + aumento);
-        System.out.println("Salário atual = R$: " + novosalario);
+        System.out.println("O aumento é R$ " + calculo);
+        System.out.println("O novo salário é R$ " + novosalario);
     }
 
 }
