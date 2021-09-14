@@ -14,12 +14,12 @@ public class ExercicioQuatro {
         Scanner ler = new Scanner(System.in);
 
         while (true) {
-            System.out.print("Digite o salário: R$ ");
+            System.out.println("Digite o salário: R$ ");
             salario = Float.parseFloat(ler.nextLine());
 
             if (salario <= 500){
                 novoSalario = salario + (salario * aumento);
-                System.out.print("O novo salário é: R$ " + novoSalario);
+                System.out.println("O novo salário é: R$ " + novoSalario);
             }
             else {
                 System.out.println("Valor não contemplado para aumento, pois é superior a R$500,00");
