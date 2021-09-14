@@ -1,8 +1,6 @@
-package atividadepratica;
-
 import java.util.Scanner;
 
-public class ExercicioQuatro {
+public class Exercicio4 {
     
     public static void main(String[] args) {
     
