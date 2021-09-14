@@ -12,10 +12,10 @@ public class ExercicioUm {
         float novoSalario
         Scanner ler = new Scanner(System.in);
 
-        System.out.print("Digite o valor do salário: R$ ");
+        System.out.println("Digite o valor do salário: R$ ");
         salario = ler.nextFloat();
 
-        System.out.print("Informe o percentual de aumento: ");
+        System.out.println("Informe o percentual de aumento: ");
         percentualAumento = ler.nextFloat();
 
         calculoAumento = (aumento/100) * salario;
