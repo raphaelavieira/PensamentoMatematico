@@ -1,27 +1,24 @@
-package atividadepratica;
-
 import java.util.Scanner;
 
-public class ExercicioSeis {
+public class Exercicio6 {
+    
     public static void main(String[] args) {
-        float percentualParcela = 0.3f;
-        float prestacao = 0;
+        
         float salario = 0;
+        float percentual = 0.3f;
+        float prestacao = 0;
+        Scanner ler = new Scanner(System.in);
 
-        Scanner teclado = new Scanner(System.in);
+        System.out.println("Digite o valor do salário: ");
+        salario = ler.nextFloat();
+        System.out.println("Digite o valor da prestação: ");
+        prestacao = ler.nextFloat();
 
-        System.out.println("Valor do salário = R$ ");
-        salario = teclado.nextFloat();
-
-        System.out.println("Valor da prestação = R$: ");
-        prestacao = teclado.nextFloat();
-
-        if (prestacao <= (salario * percentualParcela)){
-            System.out.println("Empréstimo concedido.");
+        if (prestacao <= (salario * percentual)){
+            System.out.println("Empréstimo cedido");
         }
-
         else {
-            System.out.println("Empréstimo negado.");
+            System.out.println("Empréstimo negado");
         }
     }
 }
