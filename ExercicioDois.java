@@ -3,22 +3,22 @@ package atividadepratica;
 import java.util.Scanner;
 
 public class ExercicioDois {
+ 
     public static void main(String[] args) {
         int numero;
-        int cont = 0;
+        int contador = 1;
 
-        Scanner teclado = new Scanner(System.in);
-
-        while (cont <= 9){
-            System.out.println("Digite um número: ");
-            numero = teclado.nextInt();
+        Scanner ler = new Scanner(System.in);
+        while (cont <= 10){
+            System.out.println("Informe um número: ");
+            numero = ler.nextInt();
             if (numero % 2 == 0){
-                System.out.println("Par");
+                System.out.println("O número é par");
             }
             else {
-                System.out.println("Ímpar");
+                System.out.println("O número é ímpar");
             }
-            cont += 1;
+            contador += 1;
         }
     }
 }
