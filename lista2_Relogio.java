@@ -1,10 +1,21 @@
 package Relogio;
 
-
 import java.util.Scanner;
 
 public class Relogio {
+	
+	//Parte um
+	Relogio horario = new Relogio(22, 15);
+		
+		horario.proximoMinuto();
+		horario.imprimir();
+		horario.mudarHora();
+		
+	}
 
+}
+	
+	//Parte dois
 	private int hora;
 	private int minuto;
 
